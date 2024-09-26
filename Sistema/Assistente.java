@@ -6,5 +6,9 @@ class Assistente extends Funcionario {
         super(nome, salarioBase);
     }
     
-    
+    @Override
+    public double calcularSalario() {
+        return getSalarioBase();
+    }
+
 }
