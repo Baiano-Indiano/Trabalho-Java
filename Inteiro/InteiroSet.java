@@ -1,7 +1,7 @@
 package Inteiro;
 public class InteiroSet {
     
-    private boolean[] conjunto;
+    public boolean[] conjunto;
 
     // Construtor que inicializa o array de booleanos com tamanho 101 (0 a 100)
     public InteiroSet() {
